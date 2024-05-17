@@ -27,7 +27,8 @@
 - 각 오브젝트들이 플레이어와 상호작용을 할 때 효과음을 넣어 더욱 생동감있게 만들었다.
 - 플레이어에 애니메이션을 입혀 걷을 때, 뛸 때, 가만히 있을 때 각각 수행하게 하여 더욱 생동감이 있게 만들었다.
 
-## 2. Control
+## 2. Play
+### 2. 1 Control
 - 캐릭터의 이동은 `W, A, S, D` 키로로 각각의 키가 상, 좌, 하, 우에 대응된다.
 - `I`키를 사용하여 인벤토리를 열고 닫을 수 있다.
 - `Shift`키를 사용하여 달릴 수 있다.
@@ -35,7 +36,11 @@
 - `SpaceBar`키를 사용하여 점프할 수 있다.
 - 상황에 따라 키보드의 키를 사용하여 이벤트를 실행할 수 있다.
 - `ESC`키를 두 번 연속 누르면 게임이 종료된다.
-- 플레이어는 마우스 왼쪽을 클릭하여 상자를 열거나 아이템을 획득할 수 있다. 잠금 시스템이 있어 마우스 클릭으로 정답을 클릭하여 입력할 수 있다. 
+- 플레이어는 마우스 왼쪽을 클릭하여 상자를 열거나 아이템을 획득할 수 있다. 잠금 시스템이 있어 마우스 클릭으로 정답을 클릭하여 입력할 수 있다.
+
+### 2. 1 Object Event Start
+
+![겜 플레이](https://github.com/shyang12/FIND-PROVISO/assets/85710913/083d1c6c-e7e4-4e2e-aa52-0d0c8875d55c)
 
 ## 3. Rules
 - New Game 버튼을 통해 게임을 시작하면 타이머가 작동한다. 타이머는 제작자가 임의로 시간을 변경할 수 있도록 만들었고, 중간에 게임을 종료 해도 저장이 되지 않아 처음부터 플레이를 다시 해야한다.
@@ -56,4 +61,28 @@
 
 ![단서 5](https://github.com/shyang12/FIND-PROVISO/assets/85710913/1950fdea-5602-4793-a0ae-dd20be58e8fc)  ![마지막 단서](https://github.com/shyang12/FIND-PROVISO/assets/85710913/b1f24904-9cc1-406c-9edf-354edc69745f)
 
-## 4. Result
+## 6. Result
+### 6.1 Start
+
+![게임 시작](https://github.com/shyang12/FIND-PROVISO/assets/85710913/111608da-db97-43c1-8563-7b8ebc63209d)  ![스토리](https://github.com/shyang12/FIND-PROVISO/assets/85710913/8df570e2-5f99-4968-b62a-ba701169026d)
+
+### 6.2 UI
+
+![게임 화면 1](https://github.com/shyang12/FIND-PROVISO/assets/85710913/722d4710-485a-4b34-8466-7e16f490f6a2)
+
+![게임 화면 1 1](https://github.com/shyang12/FIND-PROVISO/assets/85710913/b85e26d8-f713-425b-8028-bcf5ff64882e)  ![게임 화면 2](https://github.com/shyang12/FIND-PROVISO/assets/85710913/bcf75cd6-9ac5-410a-9ccd-26dfd20cb304)
+
+### 6.3 Components
+
+![게임 구성 1](https://github.com/shyang12/FIND-PROVISO/assets/85710913/b4195048-3059-4210-a568-f3d3b2196544)  ![게임 구성 2](https://github.com/shyang12/FIND-PROVISO/assets/85710913/10cd2e0f-2930-4be9-bc9c-0a13f5868738)
+
+![게임 구성 3](https://github.com/shyang12/FIND-PROVISO/assets/85710913/7667959c-74c9-417c-8c4f-1cb26c85d662)  ![게임 구성 4](https://github.com/shyang12/FIND-PROVISO/assets/85710913/356341ec-6658-498b-a677-ef55b29a8ecc)
+
+### 6.4 Ending
+- Happy Ending
+
+![엔딩 1](https://github.com/shyang12/FIND-PROVISO/assets/85710913/e56e0fc8-2d8e-4e52-9780-a8217c655f53)
+
+- Bad Ending
+
+![엔딩 2](https://github.com/shyang12/FIND-PROVISO/assets/85710913/25469aae-0aee-49af-abcd-506364797582)
