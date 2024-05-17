@@ -4,7 +4,7 @@
  - Unity에서 C#을 기반으로 방탈출 게임을 구현하는 프로젝트
  - 장르 : 1인칭 3D 어드벤쳐, 퍼즐
 
-`Stack` `Player Animation` `Vector` `Conflict React`
+`Stack` `Player Animation` `Vector` `Conflict React` `asset`
 
 ## 1. Co-Development Environment   
 ### 1. 1 Environments
